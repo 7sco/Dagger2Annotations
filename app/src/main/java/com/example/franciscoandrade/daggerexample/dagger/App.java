@@ -13,9 +13,9 @@ public class App extends Application {
 
 
         app=this;
-        componentTest=DaggerComponentTest.builder()
-                    .moduleTest(new ModuleTest())
-                    .build();
+        componentTest = DaggerComponentTest.builder()
+                .moduleTest(new ModuleTest())
+                .build();
 
     }
 
